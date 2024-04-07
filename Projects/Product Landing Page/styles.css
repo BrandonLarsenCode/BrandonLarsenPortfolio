@@ -1,0 +1,218 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the header */
+    align-items: center; /* Vertically center the content */
+    background-color: #333;
+    color: white;
+    padding: 40px;
+}
+
+.The-Product {
+    text-align: center;
+margin-left: 260px;
+font-size: xx-large;
+color: #4e54c8 ;
+
+}
+
+/* Styling the logo */
+.Logo-container img {
+    width: 60px;
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
+
+/* Styling the navigation links */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block; /* Display items in the same line */
+    margin-left: 20px; /* Add some spacing between links */
+}
+
+.nav-links li:first-child {
+    margin-left: 0; /* Remove margin from the first item */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling the navigation links on hover */
+.nav-links li a:hover {
+    color: rgb(255, 251, 0);
+}
+
+/* Email section styles */
+#email-section {
+    width: 100%; /* Make the email input full-width */
+    padding: 10px; /* Add padding to improve readability and appearance */
+    font-size: 18px; /* Increase font size for better visibility */
+    margin-bottom: 20px; /* Add some spacing between the email input and the submit button */
+text-align: center;
+
+}
+#email {
+  
+    padding: 10px; /* Add padding to improve readability and appearance */
+    font-size: 18px; /* Increase font size for better visibility */
+    margin-bottom: 20px; /* Add some spacing between the email input and the submit button */
+}
+#submit {
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 18px; /* Increase font size for better visibility */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect for smoother hover */
+}
+
+/* Change button background color on hover */
+#submit:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Feature section styles */
+#features {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column; /* Change the direction to column */
+    align-items: center; /* Center the items horizontally */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some spacing between features */
+    
+}
+
+/* Styling for feature icons */
+.icon {
+    margin-bottom: 10px; /* Add spacing between icon and text */
+    color: #4e54c8;
+}
+
+/* Free audio books section styles */
+#free_audio_books {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#video {
+    max-width: 100%;
+}
+
+/* For Sale section styles */
+#for_sale {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.product-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover img {
+    transform: scale(1.1);
+}
+
+.author {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4e54c8; /* Deep Blue */
+}
+
+.header {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 10px;
+    color: #666;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-price {
+    font-weight: bold;
+    color: #4e54c8; /* Deep Blue */
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.add {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4e54c8; /* Deep Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #ffd700; /* Gold */
+}   

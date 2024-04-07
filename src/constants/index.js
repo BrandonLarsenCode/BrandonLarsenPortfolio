@@ -19,12 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   nextgen,
-  JSDOC,
+  jsdoc,
   CustomerSatisfactionSurvey,
   SlipknotTributePage,
   Projectlandingpage,
@@ -117,37 +114,23 @@ const technologies = [
 ];
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: reactjs,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React.js ",
+    company_name: "",
+    icon: reactjs,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -159,8 +142,8 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "",
+    icon: threejs,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -172,8 +155,8 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "",
+    icon: tailwind,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -185,8 +168,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "",
+    icon: javascript,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -241,67 +224,67 @@ const projects = [
     source_code_link: "./projects/Customer Satisfaction Survey/index.html",
   },
   {
-    name: "Job IT",
+    name: "Slipknot Tribute Page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Tribute page offers a platform to honor a variety of subjects. I've chosen to seize this opportunity by dedicating a web page to one of my all-time favorite bands, Slipknot.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: SlipknotTributePage,
+    source_code_link: "./projects/tribute-Page/index.html",
   },
   {
-    name: "Job IT",
+    name: "Project landing page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+      "This Product Landing Page is crafted to exhibit a selection of excellent books. I've created this project to demonstrate my versatility in web design. The design prioritizes reader comfort and effortless navigation.",   
+      tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Projectlandingpage,
+    source_code_link: "./projects/Product Landing Page/index.html",
   },
   {
-    name: "Trip Guide",
+    name: "Technical Documentation Page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This web page is tailored for learners. I've consciously limited the color palette to prevent eye strain. The fixed navbar on the side facilitates easy navigation between topics, ensuring a seamless learning experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jsdoc,
+    source_code_link: "/Projects/jsdocs/index.html",
   },
 ];
 

@@ -31,13 +31,13 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import nextgen from "./nextgen.png"
 import CustomerSatisfactionSurvey from "./CustomerSatisfactionSurvey.png"
-import JSDOC from "./JSDOC.png"
+import jsdoc from "./JSDOC.png"
 import Projectlandingpage from "./Projectlandingpage.png"
 import SlipknotTributePage from "./SlipknotTributePage.png"
 
 
 export {
-  JSDOC,
+  jsdoc,
   CustomerSatisfactionSurvey,
   SlipknotTributePage,
   Projectlandingpage,

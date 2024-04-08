@@ -34,9 +34,15 @@ import CustomerSatisfactionSurvey from "./CustomerSatisfactionSurvey.png"
 import jsdoc from "./JSDOC.png"
 import Projectlandingpage from "./Projectlandingpage.png"
 import SlipknotTributePage from "./SlipknotTributePage.png"
+import udemy from "./udemy.png"
+import codecamp from "./codecamp.png"
+import spline from "./spline.png"
 
 
 export {
+  spline,
+  codecamp,
+  udemy,
   jsdoc,
   CustomerSatisfactionSurvey,
   SlipknotTributePage,
@@ -69,5 +75,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  nextgen
+  nextgen,
 };

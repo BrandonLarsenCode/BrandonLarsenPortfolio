@@ -216,7 +216,7 @@ const projects = [
       },
     ],
     image: nextgen,
-    source_code_link: "/3D-portfolio/projects/Next-Gen/index.html",
+    source_code_link: "https://next-gen-page.netlify.app/",
   },
   {
     name: "Customer Satisfaction Survey",
@@ -233,7 +233,7 @@ const projects = [
       },
     ],
     image: CustomerSatisfactionSurvey,
-    source_code_link: "3D-portfolio/projects/Customer Satisfaction Survey/index.html",
+    source_code_link: "https://customer-satisfaction-survey2234.netlify.app",
   },
   {
     name: "Project landing page",
@@ -254,7 +254,7 @@ const projects = [
       },
     ],
     image: Projectlandingpage,
-    source_code_link: "3D-portfolio/projects/Product Landing Page/index.html",
+    source_code_link: "https://product-landing-page-1234.netlify.app",
   },
   {
     name: "Technical Documentation Page",
@@ -275,7 +275,7 @@ const projects = [
       },
     ],
     image: jsdoc,
-    source_code_link: "3D-portfolio/Projects/jsdocs/index.html",
+    source_code_link: "https://jsdocs3737.netlify.app/",
   },
 ];
 

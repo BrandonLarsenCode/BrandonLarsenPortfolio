@@ -1,13 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: "/3D-portfolio",
+  plugins: [
+    react(),
+  ],
+  base: "/3D-portfolio", // Specify the correct base path for Firebase
   build: {
-    rollupOptions: {
-      external: ['react-dom/client']
-    }
-  }
-})
+    minify: 'terser',
+    terserOptions: {
+      warnings: false,
+    },
+    chunkSizeWarningLimit: 2000,
+    // Remove or adjust the rollupOptions section
+  },
+});

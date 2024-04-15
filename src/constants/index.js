@@ -238,7 +238,7 @@ const projects = [
   {
   name: "Web Side scroller",
     description:
-      "A small Web side scroller I'm currently working on check in regularly to see my progress :)",
+      "A small Web side scroller Game I'm currently working on check in regularly to see my progress :)",
     tags: [
       {
         name: "JavaScript",

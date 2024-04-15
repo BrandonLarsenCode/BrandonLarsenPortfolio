@@ -233,13 +233,13 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: webgame,
+    image: CustomerSatisfactionSurvey,
     source_code_link: "https://customer-satisfaction-survey2234.netlify.app",
   },
   {
   name: "Web Side scroller",
     description:
-      "A small Web side scroller Game I'm currently working on check in regularly to see my progress :)",
+      " Dive into the fun of my latest project: a charming little web side-scroller game in the making. Swing by every now and then to catch all the exciting updates and watch the magic unfold! 🚀",
     tags: [
       {
         name: "JavaScript",
@@ -254,7 +254,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: CustomerSatisfactionSurvey,
+    image: webgame,
     source_code_link: "https://web-game-fsjhz43h6-brandonlarsencodes-projects.vercel.app",
   },
   {

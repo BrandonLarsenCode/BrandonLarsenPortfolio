@@ -13,15 +13,12 @@ const ServiceCard = ({ index, title, icon }) => {
   useEffect(() => {
     const tiltNode = tiltRef.current;
     if (tiltNode) {
-      // Check if the device is not mobile
-      if (!/Mobi|Android/i.test(navigator.userAgent)) {
-        VanillaTilt.init(tiltNode, {
-          max: 45,
-          speed: 450,
-          glare: true,
-          "max-glare": 0.3,
-        });
-      }
+      VanillaTilt.init(tiltNode, {
+        max: 45,
+        speed: 450,
+        glare: true,
+        "max-glare": 0.3,
+      });
     }
   }, []);
 

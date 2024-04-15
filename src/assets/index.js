@@ -37,9 +37,11 @@ import SlipknotTributePage from "./SlipknotTributePage.png"
 import udemy from "./udemy.png"
 import codecamp from "./codecamp.png"
 import spline from "./spline.png"
+import webgame from "./webgame.png"
 
 
 export {
+  webgame,
   spline,
   codecamp,
   udemy,

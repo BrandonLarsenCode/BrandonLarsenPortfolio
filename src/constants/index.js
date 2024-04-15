@@ -28,6 +28,7 @@ import {
   codecamp,
   udemy,
   spline,
+  webgame,
 } from "../assets";
 
 export const navLinks = [
@@ -232,7 +233,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: CustomerSatisfactionSurvey,
+    image: webgame,
     source_code_link: "https://customer-satisfaction-survey2234.netlify.app",
   },
   {

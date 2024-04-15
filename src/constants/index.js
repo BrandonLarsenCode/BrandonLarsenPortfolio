@@ -236,6 +236,27 @@ const projects = [
     source_code_link: "https://customer-satisfaction-survey2234.netlify.app",
   },
   {
+  name: "Web Side scroller",
+    description:
+      "A small Web side scroller I'm currently working on check in regularly to see my progress :)",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sprites",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CustomerSatisfactionSurvey,
+    source_code_link: "https://web-game-fsjhz43h6-brandonlarsencodes-projects.vercel.app",
+  },
+  {
     name: "Project landing page",
     description:
       "This Product Landing Page is crafted to exhibit a selection of excellent books. I've created this project to demonstrate my versatility in web design. The design prioritizes reader comfort and effortless navigation.",   

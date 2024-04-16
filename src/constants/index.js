@@ -255,7 +255,7 @@ const projects = [
       },
     ],
     image: webgame,
-    source_code_link: "https://web-game-fsjhz43h6-brandonlarsencodes-projects.vercel.app",
+    source_code_link: "https://web-game-nu.vercel.app",
   },
   {
     name: "Project landing page",

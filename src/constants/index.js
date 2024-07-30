@@ -29,6 +29,8 @@ import {
   udemy,
   spline,
   webgame,
+  calllogger,
+  react,
 } from "../assets";
 
 export const navLinks = [
@@ -48,15 +50,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "JavaScript JQuery",
     icon: web,
   },
   {
-    title: "React.js three.js Developer",
+    title: "React.js three.js Email.js",
     icon: mobile,
   },
   {
-    title: "3D Designer",
+    title: "3D Designer Blender Figma",
     icon: backend,
   },
   
@@ -193,6 +195,9 @@ const testimonials = [
   {
     image: udemy,
   },
+  {
+    image: react,
+  },
  
 ];
 
@@ -203,16 +208,21 @@ const projects = [
       "This project represents one of my early endeavors in web development. It serves as a platform to demonstrate futuristic technology concepts, showcasing advanced features and design elements. While primarily a prototype, the aim was to create an immersive and credible user experience. Every detail was meticulously crafted to push the boundaries of believability and innovation, reflecting my commitment to excellence in web design and development.",
     tags: [
       {
-        name: "JavaScript",
-        color: "blue-text-gradient",
+        name: "HTML",
+        color: "yello-text-gradient",
       },
       {
-        name: "HTML",
+        name: "JAVASCRIPT",
         color: "green-text-gradient",
       },
       {
         name: "CSS",
         color: "pink-text-gradient",
+ 
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
  
       },
     ],
@@ -226,7 +236,7 @@ const projects = [
     tags: [
       {
         name: "HTML",
-        color: "blue-text-gradient",
+        color: "red-text-gradient",
       },
       {
         name: "CSS",
@@ -298,6 +308,31 @@ const projects = [
     ],
     image: jsdoc,
     source_code_link: "https://jsdocs3737.netlify.app/",
+  },
+  {
+    name: "Call-Logger-React-App",
+    description:
+      "As a technical support agent, managing daily calls efficiently is crucial. This React-based web application streamlines the process with its clean, user-friendly interface and elegant design. The app offers an intuitive way to log and track calls throughout the day, complete with a built-in calendar for easy reference. It's crafted to be visually appealing and easy on the eyes, ensuring a pleasant user experience.",
+    tags: [
+      {
+        name: "HTML",
+        color: "red-text-gradient",
+      },
+      {
+        name: "REACT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: calllogger,
+    source_code_link: "https://call-logger-react-app.vercel.app/",
   },
 ];
 

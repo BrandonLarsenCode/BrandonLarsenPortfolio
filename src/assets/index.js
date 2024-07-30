@@ -38,9 +38,13 @@ import udemy from "./udemy.png"
 import codecamp from "./codecamp.png"
 import spline from "./spline.png"
 import webgame from "./webgame.png"
+import calllogger from "./calllogger.png"
+import react from "./react.png"
 
 
 export {
+  react,
+  calllogger,
   webgame,
   spline,
   codecamp,

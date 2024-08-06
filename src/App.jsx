@@ -10,9 +10,18 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          <div> </div>
+        <div> </div>
+        <div> </div>
         </div>
+        <div></div>
+        <div></div>
+        <div></div>
         <LazyLoader>
           <About />
+          <div></div>
+        <div></div>
+        <div></div>
         </LazyLoader>
         <LazyLoader>
           <Experience />
@@ -21,7 +30,13 @@ const App = () => {
           <Tech />
         </LazyLoader>
         <LazyLoader>
+        <div></div>
+        <div></div>
+        <div></div>
           <Works />
+          <div></div>
+        <div></div>
+        <div></div>
         </LazyLoader>
         <LazyLoader>
           <Feedbacks />

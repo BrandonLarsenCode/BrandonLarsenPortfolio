@@ -31,6 +31,7 @@ import {
   webgame,
   calllogger,
   react,
+  jquery,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "JavaScript JQuery",
+    title: "HTML CSS JAVASCRIPT JQUERY",
     icon: web,
   },
   {
@@ -85,22 +86,22 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
+  /*{
     name: "Redux Toolkit",
     icon: redux,
-  },
+  },*/
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Jquery",
+    icon: jquery,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  {
+ /* {
     name: "MongoDB",
     icon: mongodb,
-  },
+  },*/
   {
     name: "Three JS",
     icon: threejs,
@@ -113,24 +114,74 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
+ /* {
     name: "docker",
     icon: docker,
-  },
+  },*/
 ]
 const experiences = [
+
+
+  {
+    title: "HTML,CSS",
+    company_name: "",
+    icon: html,
+    iconBg: "#383E56",
+    points: [
+      "Proficient in HTML, CSS, and JavaScript.",
+      "Experience with responsive web design techniques.",
+      "Utilizing modern frameworks like React for dynamic applications.",
+      "Familiarity with server-side programming concepts using Node.js.",
+      "Understanding of databases and version control systems.",
+    ],
+  },
+  {
+    title: "JavaScript",
+    company_name: "",
+    icon: javascript,
+    iconBg: "#F7DF1E",
+    points: [
+      "Proficient in core JavaScript concepts including ES6+ features.",
+      "Experience with asynchronous programming and handling APIs.",
+      "Utilizing modern JavaScript techniques for efficient coding.",
+    ],
+  },
+  {
+    title: "jQuery",
+    company_name: "",
+    icon: jquery,
+    iconBg: "#0769AD",
+    points: [
+      "Experienced in DOM manipulation and event handling.",
+      "Building interactive and dynamic web elements.",
+      "Utilizing jQuery for simplified cross-browser compatibility.",
+    ],
+  },
+  
+ 
   {
     title: "React.js",
     company_name: "",
     icon: reactjs,
     iconBg: "#383E56",
     points: [
-      "Understanding core concepts like components, props, state, and lifecycle.",
-      "Building UIs using reusable components.",
-      "Managing state with useState, useContext, and Redux.",
-      "Handling async operations with Axios, Redux Thunk, or Saga.",
+      "Proficient in core concepts like components, props, state, and lifecycle.",
+      "Building and managing UIs with reusable components.",
+      "Managing state effectively with useState and useContext.",
+      "Handling async operations using Axios and Redux Thunk.",
       "Implementing client-side routing with React Router.",
-      "Optimizing performance with code splitting, lazy loading, and memoization.",
+      "Optimizing performance with code splitting and lazy loading.",
+    ],
+  },
+  {
+    title: "Spline",
+    company_name: "",
+    icon: spline,
+    iconBg: "#E6DEDD",
+    points: [
+      "Designing smooth and continuous transitions between elements.",
+      "Creating complex curves and shapes intuitively.",
+      "Precise control over element movements and transitions.",
     ],
   },
   {
@@ -141,47 +192,9 @@ const experiences = [
     points: [
       "Understanding scenes, geometries, materials, and animations.",
       "Creating and manipulating 3D scenes, meshes, and animations.",
-      "Implementing advanced features like shaders and physics simulations.",
-      "Optimizing applications for performance and efficiency.",
-      "Integrating three.js with other libraries and frameworks.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "",
-    icon: html,
-    iconBg: "#383E56",
-    points: [
-      "Understanding HTML, CSS, and JavaScript.",
-      "Experience with responsive web design techniques.",
-      "Knowledge of modern JS frameworks like React, Angular, or Vue.js.",
-      "Understanding of server-side programming languages like Node.js.",
-      "Proficiency in using databases like MySQL or PostgreSQL.",
-      "Experience with version control systems like Git.",
-    ],
-  },
-  {
-    title: "Spline",
-    company_name: "",
-    icon: spline,
-    iconBg: "#E6DEDD",
-    points: [
-      "Seamless and continuous element transitions.",
-      "Designing complex curves and shapes intuitively.",
-      "Precise control over element trajectories.",
-      "Smooth transitions between application states.",
-    ],
-  },
-  {
-    title: "Tailwind",
-    company_name: "",
-    icon: tailwind,
-    iconBg: "#E6DEDD",
-    points: [
-      "Understanding utility-first CSS approach and core concepts of Tailwind CSS.",
-      "Proficiency in rapidly building modern and responsive UIs.",
-      "Configuring and customizing Tailwind CSS.",
-      "Experience with Tailwind CSS utility classes for common UI components.",
+      "Implementing advanced features like shaders.",
+      "Optimizing 3D applications for performance and efficiency.",
+      "Integrating Three.js with other libraries and frameworks.",
     ],
   },
 ];

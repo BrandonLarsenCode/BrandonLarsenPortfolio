@@ -56,12 +56,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As an aspiring coder with a fervent passion for technology, 
-        I've recently delved into the world of programming. Through various courses and personal projects, 
-        I've begun my journey in web development and 3D modeling. Proficient in TypeScript and JavaScript, 
-        I've also gained expertise in frameworks such as React, Node.js, and Three.js. I thrive on learning quickly 
-        and working closely with clients to develop efficient, scalable, and intuitive solutions that tackle real-world 
-        challenges. Let's collaborate to turn your concepts into reality!
+        My journey in technology began in IT, 
+where my curiosity about systems and a passion for creation led me to programming. 
+I’ve developed skills in HTML, CSS, JavaScript, and jQuery, and used React to build
+ impactful projects. Driven by a love for learning and problem-solving,
+  I’m eager to apply my growing expertise to create efficient, 
+scalable solutions and collaborate on meaningful projects.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

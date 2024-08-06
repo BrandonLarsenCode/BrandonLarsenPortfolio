@@ -40,9 +40,11 @@ import spline from "./spline.png"
 import webgame from "./webgame.png"
 import calllogger from "./calllogger.png"
 import react from "./react.png"
+import jquery from "./tech/jquery.png"
 
 
 export {
+  jquery,
   react,
   calllogger,
   webgame,
